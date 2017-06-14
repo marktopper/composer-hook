@@ -1,2 +1,2 @@
 # composer-hook
-A hook using Composer.
+This is a test hook for larapack.io's hook system (Test using Composer)
