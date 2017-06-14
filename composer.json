@@ -1,5 +1,6 @@
 {
     "name": "marktopper/composer-hook",
+    "version": "0.0.1"
     "require": {
        "marktopper/composer-hook-dependency-1": "*"
     }
