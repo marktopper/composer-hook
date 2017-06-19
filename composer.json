@@ -2,7 +2,30 @@
     "name": "composer-hook",
     "description": "testing",
     "keywords": ["foo", "bar"],
+    "homepage": "https://marktopper.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Topper",
+            "email": "mark@ulties.com"
+        }
+    ],
     "require": {
        "marktopper/composer-hook-dependency-1": "*"
+    },
+    "require-dev": {
+        "fistphp/testing": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {}
+    },
+    "autoload-dev": {
+        "classmap": []
+    },
+    "extra": {
+        "foo": "bar"
+    },
+    "suggest": {
+        "composer/composer": "For some reasons"
     }
 }
